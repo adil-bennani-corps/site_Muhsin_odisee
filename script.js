@@ -51,7 +51,12 @@ function closeSection() {
 function getSectionContent(sectionNumber) {
     const sections = {
         '1': `
-            <h2 class="modal-title">Escale 1 - Wat heb ik geleerd in mijn opleiding?</h2>
+            <h2 class="modal-title">Haven 1 - Wat heb ik geleerd in mijn opleiding?</h2>
+            <div class="modal-logos">
+                <img src="images/Adobe-Logo.png" alt="Adobe Logo" class="modal-logo-img">
+                <img src="images/canva icon.png" alt="Canva Logo" class="modal-logo-img">
+                <img src="images/Mailchimp yellow -Symbol.jpg" alt="Mailchimp Logo" class="modal-logo-img">
+            </div>
             <div class="modal-text">
                 <ul class="modal-list">
                     <li>Werken met tools zoals Canva, Adobe, Mailchimp, SEO, Word, Excel en PowerPoint</li>
@@ -64,7 +69,7 @@ function getSectionContent(sectionNumber) {
             <button class="back-button" onclick="closeSection()">⚓ Terug naar de kaart</button>
         `,
         '2': `
-            <h2 class="modal-title">Escale 2 - Op welke verwezenlijkingen ben ik het meest trots?</h2>
+            <h2 class="modal-title">Haven 2 - Op welke verwezenlijkingen ben ik het meest trots?</h2>
             <div class="modal-text">
                 <p>Mijn opleiding en stages afgelegd in mijn eigen tempo met focus. In beide stages een echte meerwaarde kunnen zijn. Gegroeid in creativiteit, veerkracht en zelfvertrouwen. Mijn visualsportfolio: grafische ontwerpen in Adobe (social media visuals, flyers, banners).</p>
             </div>
@@ -89,7 +94,7 @@ function getSectionContent(sectionNumber) {
             <button class="back-button" onclick="closeSection()">⚓ Terug naar de kaart</button>
         `,
         '3': `
-            <h2 class="modal-title">Escale 3 - Waar heb ik werkplekleren gedaan?</h2>
+            <h2 class="modal-title">Haven 3 - Waar heb ik werkplekleren gedaan?</h2>
             <div class="stages-container">
                 <div class="stage-card">
                     <img src="images/syntra brussel logo.jpg" alt="Syntra Brussel" class="stage-logo">
@@ -116,7 +121,7 @@ function getSectionContent(sectionNumber) {
             <button class="back-button" onclick="closeSection()">⚓ Terug naar de kaart</button>
         `,
         '4': `
-            <h2 class="modal-title">Escale 4 - Wat zijn mijn sterke punten?</h2>
+            <h2 class="modal-title">Haven 4 - Wat zijn mijn sterke punten?</h2>
             <div class="strengths-grid">
                 <div class="strength-item">
                     <div class="strength-icon">⚓</div>
@@ -152,7 +157,7 @@ function getSectionContent(sectionNumber) {
             <button class="back-button" onclick="closeSection()">⚓ Terug naar de kaart</button>
         `,
         '5': `
-            <h2 class="modal-title">Escale 5 - Wat zijn mijn werkpunten?</h2>
+            <h2 class="modal-title">Haven 5 - Wat zijn mijn werkpunten?</h2>
             <div class="work-points">
                 <div class="work-point-item">
                     <div>
@@ -185,7 +190,7 @@ function getSectionContent(sectionNumber) {
             <button class="back-button" onclick="closeSection()">⚓ Terug naar de kaart</button>
         `,
         '6': `
-            <h2 class="modal-title">Escale 6 - Zelfanalyse – Kernkwadrant van Ofman</h2>
+            <h2 class="modal-title">Haven 6 - Zelfanalyse – Kernkwadrant van Ofman</h2>
             <div class="kernkwadrant">
                 <div class="kw-item kw-kernkwaliteit">
                     <h3>Kernkwaliteit</h3>
@@ -207,7 +212,7 @@ function getSectionContent(sectionNumber) {
             <button class="back-button" onclick="closeSection()">⚓ Terug naar de kaart</button>
         `,
         '7': `
-            <h2 class="modal-title">Escale 7 - Wat wil ik op korte termijn?</h2>
+            <h2 class="modal-title">Haven 7 - Wat wil ik op korte termijn?</h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <h3>Werken in marketing of communicatie</h3>
@@ -225,7 +230,7 @@ function getSectionContent(sectionNumber) {
             <button class="back-button" onclick="closeSection()">⚓ Terug naar de kaart</button>
         `,
         '8': `
-            <h2 class="modal-title">Escale 8 - Welke stappen onderneem ik om een job te zoeken?</h2>
+            <h2 class="modal-title">Haven 8 - Welke stappen onderneem ik om een job te zoeken?</h2>
             <div class="checklist">
                 <div class="checklist-item">
                     <div class="checklist-icon">📄</div>
@@ -252,7 +257,7 @@ function getSectionContent(sectionNumber) {
             <button class="back-button" onclick="closeSection()">⚓ Terug naar de kaart</button>
         `,
         '9': `
-            <h2 class="modal-title">Escale 9 - Mijn ideale functie</h2>
+            <h2 class="modal-title">Haven 9 - Mijn ideale functie</h2>
             <div class="job-card">
                 <h3>Ondersteunende marketingfunctie</h3>
                 <div class="modal-text">
@@ -265,7 +270,7 @@ function getSectionContent(sectionNumber) {
             <button class="back-button" onclick="closeSection()">⚓ Terug naar de kaart</button>
         `,
         '10': `
-            <h2 class="modal-title">Escale 10 - In welk type bedrijf wil ik terechtkomen?</h2>
+            <h2 class="modal-title">Haven 10 - In welk type bedrijf wil ik terechtkomen?</h2>
             <div class="company-cards">
                 <div class="company-card">
                     <div class="company-icon">🏢</div>
@@ -286,7 +291,7 @@ function getSectionContent(sectionNumber) {
             <button class="back-button" onclick="closeSection()">⚓ Terug naar de kaart</button>
         `,
         '11': `
-            <h2 class="modal-title">Escale 11 - Wat wil ik verder studeren?</h2>
+            <h2 class="modal-title">Haven 11 - Wat wil ik verder studeren?</h2>
             <div class="study-path">
                 <div class="path-step">
                     <h3>Nu</h3>
@@ -307,7 +312,7 @@ function getSectionContent(sectionNumber) {
             <button class="back-button" onclick="closeSection()">⚓ Terug naar de kaart</button>
         `,
         '12': `
-            <h2 class="modal-title">Escale 12 - Waar heb ik spijt van?</h2>
+            <h2 class="modal-title">Haven 12 - Waar heb ik spijt van?</h2>
             <div class="conclusion">
                 <div class="modal-text">
                     <p><strong>Dat ik soms te weinig vertrouwen had in mezelf</strong></p>

@@ -439,6 +439,35 @@ body {
     z-index: 20;
 }
 
+/* ===== MODAL LOGOS ===== */
+.modal-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: rgba(135, 206, 235, 0.1);
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.modal-logo-img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+    transition: transform 0.3s ease;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.modal-logo-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
 /* ===== HAVEN BADGE ===== */
 .haven-badge {
     background: var(--blue-navy);
@@ -1035,6 +1064,11 @@ body {
         width: 90%;
     }
     
+    .modal-logo-img {
+        width: 100px;
+        height: 100px;
+    }
+    
     /* Réduire les décorations sur tablette */
     .decoration {
         font-size: 1.5rem;
@@ -1092,6 +1126,17 @@ body {
     .wave-line {
         width: 95%;
         height: 30px;
+    }
+    
+    .modal-logos {
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+    
+    .modal-logo-img {
+        width: 80px;
+        height: 80px;
+        padding: 10px;
     }
     
     /* Masquer certaines décorations sur mobile */
@@ -1167,6 +1212,17 @@ body {
     
     .haven-number {
         font-size: 1.1rem;
+    }
+    
+    .modal-logos {
+        gap: 1rem;
+        padding: 0.8rem;
+    }
+    
+    .modal-logo-img {
+        width: 70px;
+        height: 70px;
+        padding: 8px;
     }
     
     .hero-title {
