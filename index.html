@@ -18,9 +18,37 @@
         </div>
     </header>
 
-    <!-- Section Hero/Intro -->
-    <section class="hero">
-        <div class="hero-content">
+    <!-- Main Ocean Gradient Container -->
+    <main class="ocean-gradient">
+        <!-- Decorative Elements -->
+        <div class="decorations">
+            <!-- Nuages -->
+            <div class="decoration cloud cloud1">☁️</div>
+            <div class="decoration cloud cloud2">☁️</div>
+            <div class="decoration cloud cloud3">☁️</div>
+            <div class="decoration cloud cloud4">☁️</div>
+            <!-- Mouettes -->
+            <div class="decoration seagull seagull1">🐦</div>
+            <div class="decoration seagull seagull2">🐦</div>
+            <div class="decoration seagull seagull3">🐦</div>
+            <div class="decoration seagull seagull4">🐦</div>
+            <div class="decoration seagull seagull5">🐦</div>
+            <!-- Îles -->
+            <div class="decoration island island1">🏝️</div>
+            <div class="decoration island island2">🏝️</div>
+            <div class="decoration island island3">🏝️</div>
+            <!-- Phare -->
+            <div class="decoration lighthouse">🗼</div>
+            <!-- Boussole -->
+            <div class="decoration compass">🧭</div>
+            <!-- Ancres -->
+            <div class="decoration anchor anchor1">⚓</div>
+            <div class="decoration anchor anchor2">⚓</div>
+            <div class="decoration anchor anchor3">⚓</div>
+        </div>
+
+        <!-- Section Hero/Intro -->
+        <section class="hero">
             <h1 class="hero-title">Mijn reis naar mijn Diploma</h1>
             <h2 class="hero-subtitle">Na 12 Havens</h2>
             <div class="hero-text">
@@ -31,419 +59,146 @@
                 <p>Vandaag neem ik jullie mee op mijn reis.</p>
                 <p>Elke haven vertelt een stukje van mijn verhaal.</p>
                 <p>12 vragen, 12 ervaringen, 12 momenten van groei.</p>
-                <p class="scroll-indicator">⬇️ Scroll om mijn reis te ontdekken</p>
+                <p class="hero-cta">⚓ Klik op een boot en vaar mee naar elke haven.</p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Section Connector -->
-    <div class="section-connector">
-        <div class="dotted-line"></div>
-        <div class="connector-boat">
-            <img src="images/cruise.png" alt="boat" class="sailing-boat">
-        </div>
-        <div class="dotted-line"></div>
-    </div>
-
-    <!-- Section 1 -->
-    <section class="section-question" id="section-1">
-        <div class="section-content">
-            <div class="haven-header">
-                <div class="haven-number">1</div>
-                <div class="haven-label">HAVEN</div>
-                <img src="images/cruise.png" alt="Boat" class="haven-boat">
-            </div>
-            <h2 class="question-title">Wat heb ik geleerd in mijn opleiding?</h2>
-            <div class="answer-content">
-                <ul>
-                    <li>Werken met tools zoals Canva, Adobe, Mailchimp, SEO, Word, Excel en PowerPoint</li>
-                    <li>Zelfstandig werken en professioneel presenteren</li>
-                    <li>Theorie toepassen in digitale marketing en evenementenorganisatie</li>
-                    <li>Doelgroepen analyseren en nadenken over imago en merkidentiteit</li>
-                    <li>Meewerken als volwaardig lid van een marketingteam</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Connector -->
-    <div class="section-connector">
-        <div class="dotted-line"></div>
-        <div class="connector-boat">
-            <img src="images/cruise.png" alt="boat" class="sailing-boat">
-        </div>
-        <div class="dotted-line"></div>
-    </div>
-
-    <!-- Section 2 -->
-    <section class="section-question" id="section-2">
-        <div class="section-content">
-            <div class="haven-header">
-                <div class="haven-number">2</div>
-                <div class="haven-label">HAVEN</div>
-                <img src="images/cruise.png" alt="Boat" class="haven-boat">
-            </div>
-            <h2 class="question-title">Op welke verwezenlijkingen ben ik het meest trots?</h2>
-            <div class="answer-content">
-                <p>Mijn opleiding en stages afgelegd in mijn eigen tempo met focus. In beide stages een echte meerwaarde kunnen zijn. Gegroeid in creativiteit, veerkracht en zelfvertrouwen. Mijn visualsportfolio: grafische ontwerpen in Adobe (social media visuals, flyers, banners).</p>
-                <div class="portfolio-grid">
-                    <div class="gallery-item">
-                        <img src="images/WhatsApp Image 2026-01-19 at 19.00.42.jpeg" alt="Futuristic Cars">
+        <!-- Section Bateaux -->
+        <section class="boats-section">
+            <!-- Ligne de vagues SVG pour la rangée 1 -->
+            <svg class="wave-line wave-line-1" viewBox="0 0 1200 40" preserveAspectRatio="none">
+                <path d="M0,20 Q150,10 300,20 T600,20 T900,20 T1200,20" 
+                      stroke="rgba(255, 255, 255, 0.3)" 
+                      stroke-width="2" 
+                      fill="none" 
+                      stroke-dasharray="5,5"/>
+            </svg>
+            
+            <!-- Row 1: Boats 1-6 -->
+            <div class="boats-row boats-row-1">
+                <div class="boat-item" data-section="1">
+                    <div class="haven-badge">
+                        <span class="haven-text">HAVEN</span>
+                        <span class="haven-number">1</span>
                     </div>
-                    <div class="gallery-item">
-                        <img src="images/WhatsApp Image 2026-01-19 at 19.00.41 (2).jpeg" alt="Netflix N-Can Banner">
+                    <img src="images/cruise.png" alt="Haven 1" class="boat">
+                </div>
+                <div class="boat-item" data-section="2">
+                    <div class="haven-badge">
+                        <span class="haven-text">HAVEN</span>
+                        <span class="haven-number">2</span>
                     </div>
-                    <div class="gallery-item">
-                        <img src="images/WhatsApp Image 2026-01-19 at 19.00.41 (1).jpeg" alt="Netflix N-Can A4">
+                    <img src="images/cruise.png" alt="Haven 2" class="boat">
+                </div>
+                <div class="boat-item" data-section="3">
+                    <div class="haven-badge">
+                        <span class="haven-text">HAVEN</span>
+                        <span class="haven-number">3</span>
                     </div>
-                    <div class="gallery-item">
-                        <img src="images/WhatsApp Image 2026-01-19 at 19.00.41.jpeg" alt="Sparked logo">
+                    <img src="images/cruise.png" alt="Haven 3" class="boat">
+                </div>
+                <div class="boat-item" data-section="4">
+                    <div class="haven-badge">
+                        <span class="haven-text">HAVEN</span>
+                        <span class="haven-number">4</span>
                     </div>
+                    <img src="images/cruise.png" alt="Haven 4" class="boat">
+                </div>
+                <div class="boat-item" data-section="5">
+                    <div class="haven-badge">
+                        <span class="haven-text">HAVEN</span>
+                        <span class="haven-number">5</span>
+                    </div>
+                    <img src="images/cruise.png" alt="Haven 5" class="boat">
+                </div>
+                <div class="boat-item" data-section="6">
+                    <div class="haven-badge">
+                        <span class="haven-text">HAVEN</span>
+                        <span class="haven-number">6</span>
+                    </div>
+                    <img src="images/cruise.png" alt="Haven 6" class="boat">
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Section Connector -->
-    <div class="section-connector">
-        <div class="dotted-line"></div>
-        <div class="connector-boat">
-            <img src="images/cruise.png" alt="boat" class="sailing-boat">
-        </div>
-        <div class="dotted-line"></div>
-    </div>
+            <!-- Ligne de route maritime pointillée -->
+            <div class="route-line"></div>
 
-    <!-- Section 3 -->
-    <section class="section-question" id="section-3">
-        <div class="section-content">
-            <div class="haven-header">
-                <div class="haven-number">3</div>
-                <div class="haven-label">HAVEN</div>
-                <img src="images/cruise.png" alt="Boat" class="haven-boat">
-            </div>
-            <h2 class="question-title">Waar heb ik werkplekleren gedaan?</h2>
-            <div class="answer-content">
-                <div class="stages-container">
-                    <div class="stage-block">
-                        <img src="images/syntra brussel logo.jpg" alt="Syntra Brussel" class="stage-logo">
-                        <h3 class="stage-title">Stage 1: Syntra Brussel</h3>
-                        <p class="stage-subtitle">Tour & Taxis</p>
-                        <div class="stage-content">
-                            <p><strong>Taken:</strong> PowerPoint-presentaties voor Duaal Leren, communicatie en ondersteunende taken</p>
-                            <p><strong>Ervaring:</strong> leerrijk en positief</p>
-                            <p><strong>Groei:</strong> open samenwerken, kwaliteitsvol werken en snel nieuwe taken opnemen</p>
-                        </div>
+            <!-- Ligne de vagues SVG pour la rangée 2 -->
+            <svg class="wave-line wave-line-2" viewBox="0 0 1200 40" preserveAspectRatio="none">
+                <path d="M0,20 Q150,10 300,20 T600,20 T900,20 T1200,20" 
+                      stroke="rgba(255, 255, 255, 0.3)" 
+                      stroke-width="2" 
+                      fill="none" 
+                      stroke-dasharray="5,5"/>
+            </svg>
+
+            <!-- Row 2: Boats 7-12 -->
+            <div class="boats-row boats-row-2">
+                <div class="boat-item" data-section="7">
+                    <div class="haven-badge">
+                        <span class="haven-text">HAVEN</span>
+                        <span class="haven-number">7</span>
                     </div>
-                    <div class="stage-block">
-                        <img src="images/logo_Info Group Global_black (1).png" alt="Info Group Global" class="stage-logo">
-                        <h3 class="stage-title">Stage 2: Info Group Global</h3>
-                        <p class="stage-subtitle">Zaventem</p>
-                        <div class="stage-content">
-                            <p>Belgisch textielbedrijf actief in meer dan 60 landen</p>
-                            <p><strong>Taken:</strong> visuele communicatie, webdesign-voorbereiding, website-structuur, planning in Monday, presentaties en bezoekersonthaal</p>
-                            <p><strong>Groei:</strong> van voorzichtig naar zelfstandig en initiatief durven nemen</p>
-                            <p><strong>Evaluatie:</strong> positief, met groei in professionaliteit, communicatie en verantwoordelijkheid</p>
-                        </div>
+                    <img src="images/cruise.png" alt="Haven 7" class="boat">
+                </div>
+                <div class="boat-item" data-section="8">
+                    <div class="haven-badge">
+                        <span class="haven-text">HAVEN</span>
+                        <span class="haven-number">8</span>
                     </div>
+                    <img src="images/cruise.png" alt="Haven 8" class="boat">
+                </div>
+                <div class="boat-item" data-section="9">
+                    <div class="haven-badge">
+                        <span class="haven-text">HAVEN</span>
+                        <span class="haven-number">9</span>
+                    </div>
+                    <img src="images/cruise.png" alt="Haven 9" class="boat">
+                </div>
+                <div class="boat-item" data-section="10">
+                    <div class="haven-badge">
+                        <span class="haven-text">HAVEN</span>
+                        <span class="haven-number">10</span>
+                    </div>
+                    <img src="images/cruise.png" alt="Haven 10" class="boat">
+                </div>
+                <div class="boat-item" data-section="11">
+                    <div class="haven-badge">
+                        <span class="haven-text">HAVEN</span>
+                        <span class="haven-number">11</span>
+                    </div>
+                    <img src="images/cruise.png" alt="Haven 11" class="boat">
+                </div>
+                <div class="boat-item" data-section="12">
+                    <div class="haven-badge">
+                        <span class="haven-text">HAVEN</span>
+                        <span class="haven-number">12</span>
+                    </div>
+                    <img src="images/cruise.png" alt="Haven 12" class="boat">
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Section Connector -->
-    <div class="section-connector">
-        <div class="dotted-line"></div>
-        <div class="connector-boat">
-            <img src="images/cruise.png" alt="boat" class="sailing-boat">
-        </div>
-        <div class="dotted-line"></div>
-    </div>
-
-    <!-- Section 4 -->
-    <section class="section-question" id="section-4">
-        <div class="section-content">
-            <div class="haven-header">
-                <div class="haven-number">4</div>
-                <div class="haven-label">HAVEN</div>
-                <img src="images/cruise.png" alt="Boat" class="haven-boat">
-            </div>
-            <h2 class="question-title">Wat zijn mijn sterke punten?</h2>
-            <div class="answer-content">
-                <ul>
-                    <li>Betrouwbaarheid en nauwkeurigheid</li>
-                    <li>Professionele houding tegenover opdrachten</li>
-                    <li>Sterk in visuele structuur en lay-out</li>
-                    <li>Ervaring met websites, menu's, pagina-indelingen en Canva</li>
-                    <li>Meertalig en vlot in communicatie</li>
-                    <li>Goed functioneren binnen een marketingteam</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Connector -->
-    <div class="section-connector">
-        <div class="dotted-line"></div>
-        <div class="connector-boat">
-            <img src="images/cruise.png" alt="boat" class="sailing-boat">
-        </div>
-        <div class="dotted-line"></div>
-    </div>
-
-    <!-- Section 5 -->
-    <section class="section-question" id="section-5">
-        <div class="section-content">
-            <div class="haven-header">
-                <div class="haven-number">5</div>
-                <div class="haven-label">HAVEN</div>
-                <img src="images/cruise.png" alt="Boat" class="haven-boat">
-            </div>
-            <h2 class="question-title">Wat zijn mijn werkpunten?</h2>
-            <div class="answer-content">
-                <div class="werkpunt-item">
-                    <div class="werkpunt-before">
-                        <strong>Soms te snel reageren</strong>
-                    </div>
-                    <div class="werkpunt-arrow">→</div>
-                    <div class="werkpunt-after">
-                        Ik leer eerst luisteren en dan antwoorden
-                    </div>
-                </div>
-                <div class="werkpunt-item">
-                    <div class="werkpunt-before">
-                        <strong>Twijfel aan mezelf</strong>
-                    </div>
-                    <div class="werkpunt-arrow">→</div>
-                    <div class="werkpunt-after">
-                        Ik wil sneller vertrouwen hebben in mijn beslissingen
-                    </div>
-                </div>
-                <div class="werkpunt-item">
-                    <div class="werkpunt-before">
-                        <strong>Toekomst</strong>
-                    </div>
-                    <div class="werkpunt-arrow">→</div>
-                    <div class="werkpunt-after">
-                        Eerst zelf proberen, daarna feedback vragen
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Connector -->
-    <div class="section-connector">
-        <div class="dotted-line"></div>
-        <div class="connector-boat">
-            <img src="images/cruise.png" alt="boat" class="sailing-boat">
-        </div>
-        <div class="dotted-line"></div>
-    </div>
-
-    <!-- Section 6 -->
-    <section class="section-question" id="section-6">
-        <div class="section-content">
-            <div class="haven-header">
-                <div class="haven-number">6</div>
-                <div class="haven-label">HAVEN</div>
-                <img src="images/cruise.png" alt="Boat" class="haven-boat">
-            </div>
-            <h2 class="question-title">Zelfanalyse – Kernkwadrant van Ofman</h2>
-            <div class="answer-content">
-                <div class="kernkwadrant">
-                    <div class="kwadrant-item kernkwaliteit">
-                        <div class="kwadrant-label">Kernkwaliteit</div>
-                        <div class="kwadrant-value">Betrouwbaarheid en nauwkeurigheid</div>
-                    </div>
-                    <div class="kwadrant-item valkuil">
-                        <div class="kwadrant-label">Valkuil</div>
-                        <div class="kwadrant-value">Perfectionisme en te voorzichtig zijn</div>
-                    </div>
-                    <div class="kwadrant-item uitdaging">
-                        <div class="kwadrant-label">Uitdaging</div>
-                        <div class="kwadrant-value">Sneller keuzes maken en meer zelfvertrouwen</div>
-                    </div>
-                    <div class="kwadrant-item allergie">
-                        <div class="kwadrant-label">Allergie</div>
-                        <div class="kwadrant-value">Slordigheid en onduidelijkheid</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Connector -->
-    <div class="section-connector">
-        <div class="dotted-line"></div>
-        <div class="connector-boat">
-            <img src="images/cruise.png" alt="boat" class="sailing-boat">
-        </div>
-        <div class="dotted-line"></div>
-    </div>
-
-    <!-- Section 7 -->
-    <section class="section-question" id="section-7">
-        <div class="section-content">
-            <div class="haven-header">
-                <div class="haven-number">7</div>
-                <div class="haven-label">HAVEN</div>
-                <img src="images/cruise.png" alt="Boat" class="haven-boat">
-            </div>
-            <h2 class="question-title">Wat wil ik op korte termijn?</h2>
-            <div class="answer-content">
-                <ul>
-                    <li>Werken in marketing of communicatie</li>
-                    <li>Verder groeien in visuele communicatie en webdesign-voorbereiding</li>
-                    <li>Later meewerken in het bedrijf van mijn vader en dit verder uitbouwen</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Connector -->
-    <div class="section-connector">
-        <div class="dotted-line"></div>
-        <div class="connector-boat">
-            <img src="images/cruise.png" alt="boat" class="sailing-boat">
-        </div>
-        <div class="dotted-line"></div>
-    </div>
-
-    <!-- Section 8 -->
-    <section class="section-question" id="section-8">
-        <div class="section-content">
-            <div class="haven-header">
-                <div class="haven-number">8</div>
-                <div class="haven-label">HAVEN</div>
-                <img src="images/cruise.png" alt="Boat" class="haven-boat">
-            </div>
-            <h2 class="question-title">Welke stappen onderneem ik om een job te zoeken?</h2>
-            <div class="answer-content">
-                <ul>
-                    <li>CV en LinkedIn updaten</li>
-                    <li>Portfolio versterken met werk van Info Group Global</li>
-                    <li>Gericht solliciteren naar B2B- en internationale bedrijven</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Connector -->
-    <div class="section-connector">
-        <div class="dotted-line"></div>
-        <div class="connector-boat">
-            <img src="images/cruise.png" alt="boat" class="sailing-boat">
-        </div>
-        <div class="dotted-line"></div>
-    </div>
-
-    <!-- Section 9 -->
-    <section class="section-question" id="section-9">
-        <div class="section-content">
-            <div class="haven-header">
-                <div class="haven-number">9</div>
-                <div class="haven-label">HAVEN</div>
-                <img src="images/cruise.png" alt="Boat" class="haven-boat">
-            </div>
-            <h2 class="question-title">Mijn ideale functie</h2>
-            <div class="answer-content">
-                <ul>
-                    <li>Ondersteunende marketingfunctie</li>
-                    <li>Visuals maken, websites voorbereiden en content structureren</li>
-                    <li>Meedenken én uitvoeren binnen een marketingteam</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Connector -->
-    <div class="section-connector">
-        <div class="dotted-line"></div>
-        <div class="connector-boat">
-            <img src="images/cruise.png" alt="boat" class="sailing-boat">
-        </div>
-        <div class="dotted-line"></div>
-    </div>
-
-    <!-- Section 10 -->
-    <section class="section-question" id="section-10">
-        <div class="section-content">
-            <div class="haven-header">
-                <div class="haven-number">10</div>
-                <div class="haven-label">HAVEN</div>
-                <img src="images/cruise.png" alt="Boat" class="haven-boat">
-            </div>
-            <h2 class="question-title">In welk type bedrijf wil ik terechtkomen?</h2>
-            <div class="answer-content">
-                <ul>
-                    <li>Professionele en respectvolle werkomgeving</li>
-                    <li>Internationale context</li>
-                    <li>Kmo of bedrijf in rebranding of online imago-opbouw</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Connector -->
-    <div class="section-connector">
-        <div class="dotted-line"></div>
-        <div class="connector-boat">
-            <img src="images/cruise.png" alt="boat" class="sailing-boat">
-        </div>
-        <div class="dotted-line"></div>
-    </div>
-
-    <!-- Section 11 -->
-    <section class="section-question" id="section-11">
-        <div class="section-content">
-            <div class="haven-header">
-                <div class="haven-number">11</div>
-                <div class="haven-label">HAVEN</div>
-                <img src="images/cruise.png" alt="Boat" class="haven-boat">
-            </div>
-            <h2 class="question-title">Wat wil ik verder studeren?</h2>
-            <div class="answer-content">
-                <ul>
-                    <li>Eerst werkervaring opdoen</li>
-                    <li>Later eventueel bijstuderen in grafische vormgeving, webdesign of digitale marketing</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Connector -->
-    <div class="section-connector">
-        <div class="dotted-line"></div>
-        <div class="connector-boat">
-            <img src="images/cruise.png" alt="boat" class="sailing-boat">
-        </div>
-        <div class="dotted-line"></div>
-    </div>
-
-    <!-- Section 12 -->
-    <section class="section-question" id="section-12">
-        <div class="section-content">
-            <div class="haven-header">
-                <div class="haven-number">12</div>
-                <div class="haven-label">HAVEN</div>
-                <img src="images/cruise.png" alt="Boat" class="haven-boat">
-            </div>
-            <h2 class="question-title">Waar heb ik spijt van?</h2>
-            <div class="answer-content">
-                <p>Dat ik soms te weinig vertrouwen had in mezelf. Ik heb geleerd dat feedback een hulpmiddel is. In de toekomst wil ik sneller initiatief nemen en duidelijker communiceren.</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Section Sable/Fond marin -->
     <footer class="sand-section">
-        <div class="sand-content">
-            <h2 class="sand-title">Einde van mijn reis... maar het avontuur gaat verder!</h2>
-            <div class="sand-decorations">
-                🐚  ⭐  🐚
-            </div>
+        <div class="sand-decorations">
+            <div class="sand-item shell1">🐚</div>
+            <div class="sand-item shell2">🐚</div>
+            <div class="sand-item star1">⭐</div>
+            <div class="sand-item rock1">🪨</div>
         </div>
     </footer>
+
+    <!-- Modal Overlay -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be injected here by JavaScript -->
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
